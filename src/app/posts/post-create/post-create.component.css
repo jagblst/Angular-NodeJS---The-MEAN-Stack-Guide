@@ -2,3 +2,8 @@ mat-form-field,
 textarea {
   width: 100%;
 }
+
+textarea::placeholder,
+input::placeholder {
+  text-align: center;
+}
